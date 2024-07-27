@@ -49,6 +49,8 @@ header p {
 /* Add margins between sections */
 #contact, #summary, #experience, #education, #skills, #projects {
     margin-top: 30px;
+    background-color: #010101;
+    color: #ffffff;
 }
 
 /* Style section headings */
