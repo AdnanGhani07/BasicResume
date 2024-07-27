@@ -2,7 +2,7 @@
 
 /* Body and General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -32,6 +32,20 @@ p {
     border-radius: 50%;
     margin-bottom: 20px;
 }
+/* styles.css */
+
+/* Set up Flexbox for section containers */
+/* styles.css */
+
+/* Set up Flexbox for section containers */
+.container {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    position: relative; /* Required for pseudo-elements */
+    border-bottom: 2px solid #000;
+}
 
 #contact {
     background-color: #f5f5f5; /* Light gray */
@@ -40,13 +54,13 @@ p {
 
 /* Summary background color */
 #summary {
-    background-color: #f9f9f9; /* Slightly lighter gray */
+    background-color: #f5f5f5; /* Slightly lighter gray */
     padding: 20px;
 }
 
 /* Experience background color */
 #experience {
-    background-color: #e0e0e0; /* Even lighter gray */
+    background-color: #f5f5f5; /* Even lighter gray */
     padding: 20px;
 }
 
@@ -58,22 +72,23 @@ p {
 
 /* Skills background color */
 #skills {
-    background-color: #e0e0e0;
+    background-color: #f5f5f5;
     padding: 20px;
 }
 
 /* Projects background color */
 #projects {
-    background-color: #f9f9f9;
+    background-color: #f5f5f5;
     padding: 20px;
 }
 
 /* Declaration background color */
 #declaration {
-    background-color: #0074D9; /* Same as header color */
-    color: #ffffff;
+    background-color: #f5f5f5; /* Same as header color */
+    color: #0b0b0b;
     text-align: center;
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Footer Styling */
