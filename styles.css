@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Body and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #010101;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Profile Picture Styling */
+.img-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Contact Information Styling */
+#contact {
+    margin-top: 20px;
+}
+
+/* Summary Styling */
+#summary {
+    margin-top: 30px;
+}
+
+/* Experience Styling */
+#experience {
+    margin-top: 40px;
+}
+
+/* Education Styling */
+#education {
+    margin-top: 40px;
+}
+
+/* Skills Styling */
+#skills {
+    margin-top: 40px;
+}
+
+/* Projects Styling */
+#projects {
+    margin-top: 40px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #888;
+}
